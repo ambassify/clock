@@ -1,0 +1,23 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "A timer with drift correction",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm -s run test:lint && npm -s run test:unit",
+    "test:lint": "eslint src && eslint test",
+    "test:unit": "nyc mocha"
+  },
+  "author": "Ambassify <dev@ambassify.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mitt": "^1.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-ambassify": "^1.2.0",
+    "mocha": "^5.0.1",
+    "nyc": "^11.4.1",
+    "sinon": "^4.4.2"
+  }
+}

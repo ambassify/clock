@@ -1,0 +1,11 @@
+{
+    "root": true,
+    "extends": [
+        "eslint-config-ambassify/node"
+    ],
+    "rules": {
+        "node/no-unsupported-features": 0,
+        "node/no-unpublished-import": 0,
+        "node/no-unpublished-require": 0
+    }
+}
